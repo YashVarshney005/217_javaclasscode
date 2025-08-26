@@ -29,7 +29,7 @@ public class Heirarical_inheritance {
     public static void main(String[] args) {
         Staff x = new Staff();
         x.id = 101;
-        x.name = "Ronak";
+        x.name = "Yash Varshney";
         x.org = "KIET";
         x.department = "CSEAIML";
         x.subject = "JAVA";
