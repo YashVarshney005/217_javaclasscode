@@ -1,38 +1,42 @@
-
-class Emp{
-
+class Employee {
     String name;
     int id;
     String org;
-    void EmpDetails(){
-        System.out.println(id+ " " +org+" " +name);
-    }
 
-}
-
-class Faculty extends Emp{
-
-    String  dept;
-    String subj;
-    void facultyDetails(){
-        System.out.println(dept + " " +subj);
+    void EmployeeDetails() {
+        System.out.println("Details are: " + name + " " + id + " " + org);
     }
 }
 
+class Faculty extends Employee {
+    String department;
+    String subject;
+
+    void FacultyDetails() {
+        System.out.println("Details are: " + department + " " + subject);
+    }
+}
+
+class Staff extends Faculty {
+    String shift;
+
+    void StaffDetails() {
+        System.out.println("Details are: " + shift);
+    }
+}
 
 public class Heirarical_inheritance {
-
-
     public static void main(String[] args) {
-        Faculty f = new Faculty();
-        f.name = "Yash";
-        f.id = 908;
-        f.org = "Pizza Hut";
-        f.dept = "Mechanic";
-        f.subj = "Astrology";
-        f.EmpDetails();
-        f.facultyDetails();
+        Staff x = new Staff();
+        x.id = 101;
+        x.name = "Ronak";
+        x.org = "KIET";
+        x.department = "CSEAIML";
+        x.subject = "JAVA";
+        x.shift = "A";
+
+        x.EmployeeDetails();
+        x.FacultyDetails();
+        x.StaffDetails();
     }
 }
-
-
