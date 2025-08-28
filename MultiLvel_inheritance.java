@@ -25,7 +25,7 @@ class Staff extends Faculty {
     }
 }
 
-public class Heirarical_inheritance {
+public class MultiLevel_inheritance {
     public static void main(String[] args) {
         Staff x = new Staff();
         x.id = 101;
