@@ -23,12 +23,20 @@ class KIET extends College{
     void Staff(){
         System.out.println("Kiet has staff");
     }
-    void medicalFacility(){
-        System.out.println("it has");
-    }
+    // void medicalFacility(){
+    //     System.out.println("it has");
+    // }
 }
 
 
 public class AbstractExample {
-    
+    public static void main(String[] args) {
+        College cg;
+        cg = new KIET();
+        cg.Infrastructure();
+        cg.Register();
+        cg.Students();
+        cg.Staff();
+        cg.medicalFacility();
+    }
 }
