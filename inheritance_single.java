@@ -26,9 +26,9 @@ public class inheritance_single {
         Faculty f = new Faculty();
         f.name = "Yash";
         f.id = 908;
-        f.org = "KIET";
-        f.dept = "AI";
-        f.subj = "Machine Learning";
+        f.org = "Pizza Hut";
+        f.dept = "Mechanic";
+        f.subj = "Astrology";
         f.EmpDetails();
         f.facultyDetails();
     }

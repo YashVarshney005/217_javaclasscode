@@ -5,10 +5,10 @@ public class HRDepartment {
 
 
         EmployeeKiet e = new EmployeeKiet();
-        e.Emp_name = "Yash Bhoiii";
+        e.Emp_name = "Yash";
         // e.salary = 9087653;
         e.Emp_id = 7098;
-        e.Organisation = "Billu Paan Bhandar";
+        e.Organisation = "KIET";
         e.employeeDatails();
     }
 }
